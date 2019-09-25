@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>calculator</title>
+<script src="common/js/jquery-3.4.1.min.js"></script>
+<script src="common/js/common.js"></script>
+<link rel="stylesheet" href="common/css/style.css">
+<link href="https://fonts.googleapis.com/css?=family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="calculator">
+        <div class="innerBox">
+            <div class="screen"></div>
+            <div class="F F2">
+                <button onclick="input()" class="open blue">(</button>
+                <button onclick="input()" class="close blue">)</button>
+                <button onclick="input(%)" class="remainder blue">%</button>
+                <button onclick="input(del)" class="del blue">del</button>
+            </div>
+            <div class="F F3">
+                <button onclick="input(7)" class="N7 blue">7</button>
+                <button onclick="input(8)" class="N8 blue">8</button>
+                <button onclick="input(9)" class="N9 blue">9</button>
+                <button onclick="devideFx()" class="divid blue">÷</button>
+            </div>
+            <div class="F F4">
+                <button onclick="input(4)" class="N4 blue">4</button>
+                <button onclick="input(5)" class="N5 blue">5</button>
+                <button onclick="input(6)" class="N6 blue">6</button>
+                <button onclick="multiplyFx()" class="X blue">×</button>
+            </div>
+            <div class="F F5">
+                <button onclick="input(1)" class="N1 blue">1</button>
+                <button onclick="input(2)" class="N2 blue">2</button>
+                <button onclick="input(3)" class="N3 blue">3</button>
+                <button onclick="minusFx()" class="minus blue">-</button>
+            </div>
+            <div class="F F6">
+                <button onclick="input(0)" class="N0 blue">0</button>
+                <button onclick="input(.)" class="dot blue">.</button>
+                <button onclick="continues()" class="result red">=</button>
+                <button onclick="plusFx()" class="plus blue">+</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
